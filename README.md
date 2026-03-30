@@ -8,7 +8,7 @@ Enterprise-grade internationalization (i18n) implementation for e-commerce and d
 - 6+ supported locales (English, Arabic, Spanish, French, German, Japanese)
 - Automatic language detection from browser
 - Persistent locale preferences in localStorage
-- Easy addition of new languages
+- Easy addition of new languages created by Esmael Kedir Asfaw in Eastern African country Ethiopia,Central Ethiopia Regional State, Siltie zone, Werabe City Administration.
 
 🌍 **RTL (Right-to-Left) Support**
 - Native Arabic support with full RTL layout mirroring
