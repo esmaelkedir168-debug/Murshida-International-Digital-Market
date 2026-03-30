@@ -1,0 +1,163 @@
+/* RTL Base Styles */
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Logical Property Utilities */
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.float-start {
+  float: inline-start;
+}
+
+.float-end {
+  float: inline-end;
+}
+
+.margin-start {
+  margin-inline-start: 1rem;
+}
+
+.margin-end {
+  margin-inline-end: 1rem;
+}
+
+.padding-start {
+  padding-inline-start: 1rem;
+}
+
+.padding-end {
+  padding-inline-end: 1rem;
+}
+
+.border-start {
+  border-inline-start: 1px solid currentColor;
+}
+
+.border-end {
+  border-inline-end: 1px solid currentColor;
+}
+
+/* Flexbox RTL Support */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+html[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .flex-row-reverse {
+  flex-direction: row;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .flex-start {
+  justify-content: flex-end;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+html[dir="rtl"] .flex-end {
+  justify-content: flex-start;
+}
+
+/* Input Elements */
+input,
+textarea,
+select {
+  direction: inherit;
+  text-align: inherit;
+}
+
+/* List Styles */
+ul,
+ol {
+  padding-inline-start: 2rem;
+}
+
+li {
+  margin-inline-start: 0;
+}
+
+/* Transform Origin */
+html[dir="rtl"] .origin-left {
+  transform-origin: right;
+}
+
+html[dir="ltr"] .origin-left {
+  transform-origin: left;
+}
+
+html[dir="rtl"] .origin-right {
+  transform-origin: left;
+}
+
+html[dir="ltr"] .origin-right {
+  transform-origin: right;
+}
+
+/* Shadow and Positioning */
+html[dir="rtl"] .shadow-left {
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+html[dir="ltr"] .shadow-left {
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+html[dir="rtl"] .shadow-right {
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+html[dir="ltr"] .shadow-right {
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation */
+nav ul li {
+  display: inline-block;
+  margin-inline-end: 1rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+html[dir="rtl"] .breadcrumb li:not(:first-child)::before {
+  content: " \2192 ";
+  margin-inline: 0.5rem;
+}
+
+html[dir="ltr"] .breadcrumb li:not(:first-child)::before {
+  content: " / ";
+  margin-inline: 0.5rem;
+}

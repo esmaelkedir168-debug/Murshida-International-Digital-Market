@@ -1,0 +1,89 @@
+{
+  "common": {
+    "language": "اللغة",
+    "language_name": "العربية",
+    "direction": "RTL",
+    "search": "بحث",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "warning": "تحذير",
+    "info": "معلومة"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "about": "عن الموقع",
+    "contact": "اتصل بنا",
+    "cart": "سلة التسوق",
+    "account": "حسابي",
+    "checkout": "الدفع",
+    "orders": "طلباتي"
+  },
+  "products": {
+    "title": "المنتجات",
+    "featured": "المنتجات المميزة",
+    "price": "السعر",
+    "add_to_cart": "إضافة إلى السلة",
+    "in_stock": "متوفر",
+    "out_of_stock": "غير متوفر",
+    "quantity": "الكمية",
+    "specifications": "المواصفات",
+    "description": "الوصف",
+    "reviews": "تقييمات العملاء",
+    "rating": "التقييم"
+  },
+  "checkout": {
+    "title": "الدفع",
+    "billing_address": "عنوان الفاتورة",
+    "shipping_address": "عنوان الشحن",
+    "payment_method": "طريقة الدفع",
+    "order_summary": "ملخص الطلب",
+    "subtotal": "الإجمالي الفرعي",
+    "tax": "الضريبة",
+    "shipping": "الشحن",
+    "total": "الإجمالي",
+    "apply_coupon": "تطبيق القسيمة",
+    "continue_shopping": "متابعة التسوق",
+    "complete_purchase": "إكمال الشراء"
+  },
+  "account": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "register": "إنشاء حساب",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "remember_me": "تذكرني",
+    "forgot_password": "هل نسيت كلمة المرور؟",
+    "profile": "ملفي الشخصي",
+    "settings": "الإعدادات",
+    "privacy": "الخصوصية",
+    "notifications": "الإخطارات"
+  },
+  "errors": {
+    "required_field": "هذا الحقل مطلوب",
+    "invalid_email": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "invalid_password": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwords_dont_match": "كلمات المرور غير متطابقة",
+    "page_not_found": "الصفحة غير موجودة",
+    "something_went_wrong": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "network_error": "خطأ في الاتصال. يرجى التحقق من اتصالك.",
+    "unauthorized": "غير مصرح. يرجى تسجيل الدخول.",
+    "forbidden": "ليس لديك إذن للوصول إلى هذا المورد."
+  },
+  "formats": {
+    "date_format": "dd/MM/yyyy",
+    "time_format": "HH:mm",
+    "datetime_format": "dd/MM/yyyy HH:mm",
+    "currency_symbol": "﷼",
+    "decimal_separator": "٫",
+    "thousands_separator": "٬"
+  }
+}
